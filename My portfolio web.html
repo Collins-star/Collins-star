@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio website of [Your Name].">
+    <meta name="keywords" content="Portfolio, [Your Profession], [Your Skills]">
+    <meta name="author" content="[Your Name]">
+    <title>Personal Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+        }
+
+        /* About Section */
+        #about {
+            background: #ffffff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        #about img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        /* Portfolio Section */
+        #portfolio {
+            background: #e8f5e9;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project {
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Skills Section */
+        #skills {
+            background: #ffffff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .skills-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .skill {
+            background: #4CAF50;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        /* Contact Section */
+        #contact {
+            background: #ffffff;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Page</h1>
+        <p>Your one-stop destination to getting your job well done!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Desktop/NEW PICS/DSC_3398 copyy.jpg" alt="Profile Picture">
+        <p>Hello! I am [Surv Alabi Fomiberon Collins], a passionate [Am a surveyor by profession and also tech good and more]. Welcome to my page.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="Desktop/building/5-bd-dup-wide-and-flat-face-32.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Short description of Project 1.</p>
+            </div>
+            <div class="project">
+                <img src="Desktop/building/5-bd-dup-wide-and-flat-face-42.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Short description of Project 2.</p>
+            </div>
+            <div class="project">
+                <img src="Desktop/building/5-bd-dup-wide-and-flat-face-52.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Short description of Project 3.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <dic class="skill">Graphic Designs</div>
+            <div class="skill">Web design</div>
+            <div class="skill">Survey of all kind</div>
+            <div class="skill">Building designs of all kind</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Surv. Alabi Fomiberon Collins]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
